@@ -1,0 +1,32 @@
+
+.header{
+    position:relative;
+    background-color: var(--white);
+    width: 100%;
+    height:100px;
+    margin:0;
+    top:0;
+}
+.headerDiv{
+    text-align: center;
+    background: var(--red);
+    border-radius: 50px;
+    float:left;
+    padding:10px 30px 10px 30px;
+    margin:10px 0 10px 100px;
+    font-family: var(--font-one);
+    font-style: bold;
+}
+.header a{
+    color: darkblue;
+    float:right;
+    margin:5px;
+    padding:0 5px 0 5px;
+    background: var(--offwhite);
+    font-family: var(--font-two);
+    border-radius:10px;
+}
+.header a:hover{
+    color: var(--blue);
+    text-decoration-line: underline;
+}

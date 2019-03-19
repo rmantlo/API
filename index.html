@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amiibo</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' href='/css/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans+Condensed:300|Righteous" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class='header'>
+        <div class='headerDiv'>
+            <h1>Amiibo Directory</h1>
+        </div>
+        <a href='#smb'>Super Mario Bros.</a>
+        <a href='#ssb'>Super Smash Bros.</a>
+        <a href='#lz'>Legend of Zelda</a>
+        <a href='#poke'>Pokemon/Animal Crossing</a>
+        <a href='#splat'>Splatoon/Monster Hunter</a>
+        <a href='#other'>All Others</a>
+    </header>
+    <hr>
+
+    <!--SIDE DISPLAY-->
+    <section class='sideDisplay'>
+        <h1>Info</h1>
+        <p><a href='https://www.nintendo.com/amiibo/' target='blank'>Nintendo Amiibos</a></p>
+        <form>
+            <h5>Randomizer</h5>
+            <div id='container'>
+                <h5></h5>
+                <img src='/assets/img/question-mark.jpg' />
+                <p></p>
+                <p></p>
+
+
+            </div>
+            <button id="submit">New Amiibo</button>
+        </form>
+
+    </section>
+
+    <!--MAIN DISPLAY-->
+    <section class='main'>
+
+        <section class='display' id='smb'>
+            <h1>Super Mario Bros.</h1>
+            <div class='charInfo'>
+
+                <div class='superMB carSize'>
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySuperMB slides">
+                        <img src="/assets/img/smb.jpg" style='width: 100%; float:none;'>
+
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSMBSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSMBSlides(1)">&#10095;</a>
+            </div>
+
+            </div>
+        </section>
+        <section class='display' id='ssb'>
+            <h1>Super Smash Bros.</h1>
+            <div class='charInfo'>
+
+                <div class='superSB carSize'>
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySuperSB slides">
+                        <img src="/assets/img/ssb.jpg" style='width: 100%; float:none;'>
+
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSSBSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSSBSlides(1)">&#10095;</a>
+
+            </div>
+        </section>
+        <section class='display' id='lz'>
+            <h1>Legend of Zelda</h1>
+            <div class='charInfo'>
+
+                <div class='legendZ carSize'>
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="myLegend slides">
+                        <img src="/assets/img/legendZ.jpg" style='width: 100%; float:none;'>
+
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusLZSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusLZSlides(1)">&#10095;</a>
+
+            </div>
+        </section>
+
+        <section class='display' id='poke'>
+            <div class='left'>
+
+                <h1>Pokemon</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='pokemon carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myPokemon slidesMini">
+                                <img src="/assets/img/pokemon.jpg" style='width: 100%;'>
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusPokeSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusPokeSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class='right'>
+                <h1>Animal Crossing</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='animalC carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myAnimal slidesMini">
+                                <img src="/assets/img/animalC.jpg">
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusACSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusACSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='display' id='splat'>
+            <div class='left'>
+
+                <h1>Splatoon</h1>
+                <div class='charInfoMini'>
+
+                    <div class="slideshow-container">
+                        <div class='splatoon carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySplatoon slidesMini">
+                                <img src="/assets/img/splatoon.jpg">
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSplatoonSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSplatoonSlides(1)">&#10095;</a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class='right'>
+                <h1>Monster Hunter</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='monster carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myMonster slidesMini">
+                                <img src="/assets/img/monster.jpg">
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusMonsterSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusMonsterSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='display' id='other'>
+            <div class='left2'>
+
+                <h1>More Mario</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='moreMario carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myMM slidesMini">
+                                <img src="/assets/img/moremario.jpg">
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusMMSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusMMSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class='center'>
+
+                <h1>Classics</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='classic carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myClassic slidesMini">
+                                <img src="/assets/img/metroid.jpg">
+
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusCCSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusCCSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class='right2'>
+                <h1>Various</h1>
+                <div class='charInfoMini'>
+                    <div class="slideshow-container">
+                        <div class='various carSize'>
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="myVar slidesMini">
+                                <img src="/assets/img/others.png">
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusVarSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusVarSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+
+    <!--FOOTER-->
+    <!-- <footer class='footer'>
+
+    </footer> -->
+
+
+    <script type="text/javascript" src="/js/api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

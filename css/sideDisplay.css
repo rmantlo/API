@@ -1,0 +1,44 @@
+.sideDisplay{
+    position:fixed;
+    text-align:center;
+    background:var(--red);
+    border-radius: 20px;
+    left:0;
+    top:125px;
+    width: 20%;
+    height:600px;
+    
+}
+.sideDisplay{
+    font-family: var(--font-one);
+}
+.sideDisplay a{
+    color: darkblue;
+    text-decoration-line: none;
+    font-family: var(--font-two);
+}
+.sideDisplay a:hover{
+    color: var(--blue);
+    text-decoration-line: underline;
+}
+#container{
+    width:90%;
+    height:400px;
+    background: #FCFCFC;
+    border-radius:15px;
+    display: inline-block;
+
+}
+#container h5{
+    padding:10px;
+}
+#container img{
+    width:60%;
+    height:auto;
+}
+#container p {
+    margin:0;
+    padding: 5px 0px 0px 0px;
+    font-family: var(--font-three);
+    
+}
