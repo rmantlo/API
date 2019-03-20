@@ -12,21 +12,24 @@
     background: var(--red);
     border-radius: 50px;
     float:left;
-    padding:10px 30px 10px 30px;
-    margin:10px 0 10px 100px;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0 10px 10%;
     font-family: var(--font-one);
     font-style: bold;
 }
-.header a{
-    color: darkblue;
+.nav{
     float:right;
+    padding: 75px 20px 0 0;
+}
+.nav a{
+    color: darkblue;
     margin:5px;
     padding:0 5px 0 5px;
     background: var(--offwhite);
     font-family: var(--font-two);
     border-radius:10px;
 }
-.header a:hover{
+.nav a:hover{
     color: var(--blue);
     text-decoration-line: underline;
 }
