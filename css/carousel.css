@@ -68,8 +68,8 @@
   float:left;
   width: 300px; 
   max-height: 360px; 
-  
   border-radius: 10px 10px 10px 10px;
+  padding: 10px 10px 0 10px;
 }
 .slidesMini{
   width:100%;
@@ -78,5 +78,6 @@
 .slidesMini img{
   max-height: 300px; 
   max-width: 80%;
+  margin: 10px 0 0 0;
   border-radius: 10px;
 }
