@@ -3,7 +3,6 @@ const baseURL = 'https://www.amiiboapi.com/api/amiibo/'
 const list = document.querySelector('ul');
 const submitbtn = document.querySelector('#submit');
 
-
 fetch(baseURL,
      {
         method: "GET",
@@ -67,7 +66,6 @@ function randomizer(amii) {
     sideDis.appendChild(gameS);
 
 }
-
 
 /**********MAIN DISPLAY********************** */
 
